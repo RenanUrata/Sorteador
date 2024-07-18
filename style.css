@@ -16,6 +16,10 @@ body {
     color: antiquewhite;
     background-color: #2f4f4f;
     overflow: hidden;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  
 }
 
 .container{
