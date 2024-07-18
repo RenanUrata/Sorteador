@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: flex-start;
+    /* margin: 1vw; */
+    padding: 0;
+    border: 0;
+    text-align: center;
+    margin: 0;
+    color: antiquewhite;
+    background-color: #2f4f4f;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 4vw;
+    margin: 1vw;
+    border: 0;
+    background-color: darkslategray;         
+}
+
+input, button{
+    font-size: 44px;
+    border: 1px dotted antiquewhite;
+    margin: 2px;
+    padding: 10px 20px;
+    width: 40%;
+}
+#countdown {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 240px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+#resultado {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 480px;
+    font-weight: bold;
+    color: gold;
+}
