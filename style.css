@@ -3,13 +3,13 @@ body {
 	-moz-osx-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	}
-    
+
 *{
     box-sizing: border-box;
     flex-direction: column;
     /* align-content: center; */
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     /* margin: 1vw; */
     padding: 0;
     border: 0;
